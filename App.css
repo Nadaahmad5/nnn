@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  font-family: 'poppins';
+}
+.App {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.stories-bar {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  padding: 10px;
+  border-bottom: 1px solid #1D1D1D;
+  height: 150px;
+  width: 590px;
+
+}
+.home{
+  margin-left: 270px;
+}
+/* .body-txt{
+  height: 110px
+} */
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.story-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fc747b;
+}
+
+
+.name {
+  color: rgb(255, 255, 255);
+  margin-top: 18px; 
+}
+
+.profile-name {
+  color: red;
+}
+
+.center-content {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.right-content {
+  width:250px;
+  text-align: right;
+  padding: 0 20px;
+  color: #ffffff;
+}
